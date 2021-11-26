@@ -18,6 +18,7 @@ int main()
     for (int i = 0; i < 35; i++)
     {
         cin >> str;
+
         int x = 5 - (str[1] - '1');
         int y = str[0] - 'A';
         flag = false;
